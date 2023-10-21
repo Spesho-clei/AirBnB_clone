@@ -1,0 +1,34 @@
+ul.popover {
+    list-style: none;
+    display: none;
+    position: absolute;
+    background-color: #FAFAFA;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul.popover li {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+ul.popover li:hover {
+    background-color: #F0F0F0;
+}
+
+ul.popover h2 {
+    font-size: 16px;
+    margin: 0;
+}
+
+div.locations, div.amenities {
+    position: relative;
+}
+
+div.locations:hover ul.popover, div.amenities:hover ul.popover {
+    display: block;
+}
